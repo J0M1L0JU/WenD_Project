@@ -1,0 +1,76 @@
+<html>
+    <body>
+        <header>
+            SkinCare Hub
+        </header>
+        <div class="container">
+           <img src="image.png" alt="">
+            <h2>Garnier Ambre Solaire Sensitive Face Fluid SPF50</h2>
+            <p>
+            The surprise mega hit of summer 2020, this extremely thin, non-oily, quickly absorbing facial 
+            sunscreen feels and behaves like one costing eight times as much. Beauty insiders are mad for 
+            the stuff.
+           </p>
+        </div>
+        <div class="container">
+            <img src="image copy.png" alt="">
+            <h2> Eucerin Hyaluron Mist Spray</h2>
+            <p>
+            I love Eucerin, and to ignore this little-talked-about brand is to miss out on some excellent 
+            clinical skincare in all categories and for all treatment needs, from dehydration to 
+            pigmentation. I chose this because it has everything that is good and useful in a facial mist:
+            hyaluronic acid; glycerin; a can that stays cold enough for the proper amelioration of hot 
+            flashes; and positively no irritants such as essential oils and fragrance. Spray liberally 
+            during pregnancy, fatigue, heatwave or menopause.
+            </p>
+        </div>
+        <div class="container">
+           <img src="image copy 2.png" alt="">
+           <h2>La Roche-Posay Toleriane Ultra 8 mist</h2>
+           <p>
+            Not much from La Roche-Posay came within budget, but I'm delighted this product squeaked under
+            the line. The concept is simple and necessary: a spray-on face moisturiser to instantly soothe 
+            and calm skin too upset for even fingertip touch. Suitable for rosacea, eczema, psoriasis and 
+            other sensitive skins. Just spray whenever skin seems fraught, under or over makeup. Genius.
+        </p>
+        </div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
